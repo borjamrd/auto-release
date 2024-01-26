@@ -8,7 +8,8 @@
     },
     "hooks": {
         "before:init": [
-            "git pull origin main"
+            "git pull origin main",
+            "ng test"
         ],
         "after:bump": "npx auto-changelog -p"
     }
